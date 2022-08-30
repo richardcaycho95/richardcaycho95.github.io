@@ -1,0 +1,28 @@
+header{
+
+background-color:rosybrown;
+margin-top: 250px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 0px;
+padding-right:0px ;
+animation: mover_arriba 1s ease-in; 
+transition: all 1s;
+}
+@keyframes mover_arriba {
+    0%{
+        transform: translateY(300px);
+    }
+    100%{
+        transform:translateY(0px) ;
+    }
+}
+
+footer{
+    padding-bottom: 10px;
+    padding-top: 10px;
+background-color:rosybrown;
+animation: mover_arriba 1s ease-in; 
+transition: all 1s;
+}
+
